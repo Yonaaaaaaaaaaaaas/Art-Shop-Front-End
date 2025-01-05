@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+.rowLast {
+    width: 100vw !important;
+    left: 350px;
+    top: 50px;
+    height: 350px;
+    padding-bottom: 100px !important;
+    background-color: #EB8317;
+    border-radius: 20px;
+
+}
+
+#footLogo{
+    width: 200px;
+    border-radius: 20px;
+}
+h2, h4{
+    color: #FFEB00;
+}
+
+.end{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* footer logo */
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .rowLast {
+        width: 100%;
+                  left: 0;
+              }
+  
+    #footLogo {
+      width: 100px;
+    }
+  
+    .rowLast {
+      height: 100vh;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    .col {
+      font-size: 12px;
+    }
+  }
